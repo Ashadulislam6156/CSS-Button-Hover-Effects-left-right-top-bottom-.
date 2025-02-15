@@ -1,0 +1,171 @@
+*{
+    font-family: "Jost", serif;
+    font-family: "Playfair Display", serif;
+}
+
+.heru-button{
+    text-align: center;
+    margin-top: 200px; 
+}
+
+/* sign-Up-button design start */
+.sign-Up-button{
+    margin: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 2px solid #0c6168;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    color: purple;
+    font-family: "Jost", serif;
+    text-transform: uppercase;
+    transition: 0.40s;
+    font-weight: bold;
+
+}
+.sign-Up-button::after{
+    
+    content: '';
+    width: 0%;
+    height:100%;
+    position: absolute;
+    background-color: #8000ff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.40s;
+   
+}
+.sign-Up-button:hover{
+    color: white;
+    cursor: pointer;
+
+}
+.sign-Up-button:hover::after{
+    width: 100%;
+    
+}
+/* sign-Up button design end */
+
+/* sign-In button design start */
+
+.sign-In-button{
+    margin: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 2px solid #0c6168;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    color: purple;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.40s;
+}
+.sign-In-button::after{
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: #8000ff;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.40s;
+
+}
+.sign-In-button:hover{
+
+    color: white;
+    cursor: pointer;
+
+}
+.sign-In-button:hover::after{
+
+    width: 100%;
+}
+
+/* sign-In button design end */
+
+/* submit button design start */
+
+.submit-button{
+    margin: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 2px solid #0c6168;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    color: purple;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.40s;
+}
+.submit-button::after{
+    content: '';
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    background-color: #8000ff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.40s;
+
+}
+.submit-button:hover{
+
+    color: white;
+    cursor: pointer;
+
+}
+.submit-button:hover::after{
+
+    height: 100%;
+}
+
+/* submit-button design end */
+
+/* get-start-button design start */
+
+.get-start-button{
+    margin: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 2px solid #0c6168;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    color: purple;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.40s;
+}
+.get-start-button::after{
+    content: '';
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    background-color: #8000ff;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.40s;
+
+}
+.get-start-button:hover{
+
+    color: white;
+    cursor: pointer;
+
+}
+.get-start-button:hover::after{
+
+    height: 100%;
+}
+/* get-start-button design end */
